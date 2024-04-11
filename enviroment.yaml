@@ -1,0 +1,15 @@
+name: AISTU
+channels:
+- defaults
+- conda-forge
+dependencies:
+    - python=3.8
+    - patchelf
+    - pip:
+        - numpy
+        - gym==0.18.0
+        - matplotlib
+        - tensorflow
+        - opencv
+        - scikit-learn
+        - pandas
